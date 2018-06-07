@@ -1,0 +1,138 @@
+  
+body{
+  background:#e3e4e4;
+  /*background:#181907;*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 0;
+  color: white;
+
+}
+ 
+ #registrar{
+
+  float: left;
+  width: 80%;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-align: right;
+ }
+
+ #envoltura{
+  position: absolute;
+  left: 20%;
+  top: 120px;
+  margin-left: 80px;
+  margin-top:-210px;
+  width: 750px;
+  height: 500px;
+  background: #209bba;
+  box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+  border-radius: 10px;
+ }
+
+ #cotenedor{
+
+  background-color: white;
+  box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+  -webkit-border-radius:8px;
+  -moz-border-radius:10px;
+  border-radius: 10px;
+  background: #d7dede;
+  border-color: #356456;
+  height: 450px;
+  width: 900px;
+
+ }
+
+
+ #cabecera{
+
+  border-bottom: 5px solid#209bba;
+  background-color: #209bba;
+  padding-top: 5px;
+  color: #fff;
+  height: 70px;
+  line-height: 50px;
+  text-align:center; 
+}
+#cuerpo{
+
+  background: #ffffff;
+  border:solid#ccc;
+  border-width: 8px 0;
+  padding: 1px 35px;
+  height: 450px;
+
+}
+label{
+
+  color:#000;
+  font-weight: bold;
+}
+input{
+  border-radius: 5px;
+  font: bold 12px Arial,Helvetica,sans-serif;
+  height:24px;
+  line-height: 20px;
+  padding: 0 2px;
+  width: 200px;
+
+}
+ 
+
+ input#contraseña{
+
+  background: #ffc url(./images/infinito.jpg)no-repeat 0 5px;
+  padding-left: 25px;
+ }
+
+ .boton{
+
+  background: #ccc;
+  background: -webkit-linear-gradient(top,#fc6,#f63);
+  background: linear-gradient(top,#fc6,#f63);
+  color: #666;
+  width: 90px;
+  
+ }
+
+ .boton:active{
+  position:relative;
+  top: 3px;
+ }
+ #pie{
+
+  border-top: 5px solid#333;
+  color: #fff;
+  font-size: 11px;
+  background: #209bba;
+  height: 25px;
+  line-height: 2px;
+  text-align: center;
+ }
+ form,p{
+  margin: o;
+ }
+ p{
+  padding-bottom: 5px;
+ }
+ p#bot{
+  padding-top:  10px;
+ }
+
+.text p{
+  padding-top: 12px;
+  padding-right: 12px;
+}
+.inp input{
+  width: 100%;
+}
+.tb table{
+
+  width: 81px;
+}
+.imgen {
+padding: 15px 70px;
+}

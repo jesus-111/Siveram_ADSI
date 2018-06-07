@@ -1,0 +1,232 @@
+body{
+	background:#FFFFFF;
+	/*background:#181907;*/
+	font-family: Arial,Helvetica,sans-serif;
+	font-size:12px;
+	margin: 0; 
+}
+#registrar{
+	float: left;
+	width: 50%;
+	font-size: 24px;
+	font-weight: bold;
+	color: #FA081F;
+	text-align: right;
+}
+#envoltura{
+	position: absolute;
+	/*LEFT Y TOP AL 50% PARA QUE QUEDE CENTRADO EN LA PANTALLA*/
+	left: 50%;
+	top: 50%;
+	margin-left:-165px;
+	margin-top:-210px;
+	width: 485px;	
+}
+#contenedor{
+	background-color: #209BBA;
+	/*background-color:#356AA0;*/
+	/*box-shadow:;*/
+	/*Margen de sombra alrededor del contenedor 8px negro*/
+	box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+	/* las 3 lineas siguientes, sirven para el borde redondeado * pero para diferentes navegadores*/
+	-webkit-border-radius:5px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+}
+#cabecera{
+	/*linea azul que separa logo*/
+	border-bottom: 5px solid #209BBA;
+	padding-top: 5px;
+	color:#FFF;
+	height: 70px;
+	line-height: 50px;
+	text-align: center;
+}
+#cuerpo{
+	background: #ececec;
+	border:solid #ccc;
+	/*aumentando el 2px 'aparece' un borde*/
+	border-width: 2px 0;
+	padding: 15px 35px;
+}
+#envoltura1{
+	position: absolute;
+	/*LEFT Y TOP AL 50% PARA QUE QUEDE CENTRADO EN LA PANTALLA*/
+	left: 50%;
+	top: 50%;
+	margin-left: -165px;
+	margin-top: -210px;
+	width: 400px;	
+
+}
+#envoltura3{
+	position: absolute;
+	/*LEFT Y TOP AL 50% PARA QUE QUEDE CENTRADO EN LA PANTALLA*/
+	left: 50%;
+	top: 50%;
+	margin-left:-165px;
+	margin-top:-340px;
+	width: 485px;	
+}
+#cabecera1{
+	/*linea azul que separa logo*/
+	border-bottom: 2px solid #209BBA;
+	padding-top: 5px;
+	color:#FFF;
+	height: 55px;
+	line-height: 25px;
+	text-align: center;
+}
+#information{
+	background-color: #FFFFFF;
+	height: 30px;
+	width: 400px;
+}
+#cuerpo1{
+	background: #ececec;
+	border:solid #ccc;
+	/*aumentando el 2px 'aparece' un borde*/
+	border-width: 2px 0;
+	padding: 15px;
+	padding-top: 10px;
+}
+
+label{
+	
+	font-weight: bold;
+}
+input{
+	/*borde: 1px solid #999; No usra esta linea y dejar box-shadow hace efecto de profundidad*/
+	border-radius: 5px /*probar con 10px se hacen ovalados los inputs*/
+	box-shadow 2px 2px 3px 1px rgba(0,0,0,.8);
+	font: bold 12PX arial,helvetica,sans-serif;
+	height: 25px;
+	line-height: 20px;
+	padding: 0 2px;
+	width: 230px;
+}
+select#tip_rol{
+	background: #ffc; 
+	padding-left: 5px;
+}
+
+input#usuario{
+	background: #FFF; /*url(.images/loquito.jpg) no-repeat 0 2px;/*probar con #ddf. Para mover arriba-abajo la imagen 'jugar' con 2px,5px*/
+	/*para que el texto dentro del input ses mueva*/
+	padding-left: 5px; /*sirve para darle espcio a la imagen, probar con 30px 10px y ver comportmiento*/ 
+}
+input#contrasenia{
+	background: #FFF; /*url(./images/infinio.jpg)no-repeat 0 5px;*/
+	padding-left: 5px;
+}
+.boton1{
+	background: #ccc;
+	background: -webkit-linear-gradient(top,#fc6,#f63);
+	background: linear-gradient(top,#fc6,#f63);
+	color: #000;
+	width: 180px;
+	
+
+}
+.boton{
+	background: #ccc;
+	background: -webkit-linear-gradient(top,#fc6,#f63);
+	width:100px;
+}
+/*Tip esta instrucciones animan al boton enviar * para que se vea como si se pulsara*/
+.boton:active{
+	position: relative;
+	top: 3px;
+}
+.boton1:active{
+	position: relative;
+	top: 3px;
+}
+.botong:active{
+	position: relative;
+	top: 3px;
+}
+.botonv:active{
+	position: relative;
+	top: 3px;
+}
+#pie{
+
+	border-top: 5px solid #209BBA;
+	color: #fff;
+	font-size: 11px;
+	height: 25px;
+	line-height: 24px;
+	text-align: center;
+}
+form,p{
+	margin: 0;
+}
+p{
+	/*Para que los elemntos del cuerpo * se separen entre ellos probar con *10px 20px*/
+	padding-bottom: 10px;
+}
+p#bot{
+	padding-top: 5px; 
+}
+.text{
+	padding-top: 5px;
+	padding-right: 12px;
+}
+.unn{
+	width: 100%;
+}
+
+
+
+
+
+
+#tipo_documento{
+padding: 2px 40px;
+}
+#numero_documento{
+padding: 2px 40px;
+}
+#volver{
+	float: right;
+}
+select#selection{
+	width: 238px;
+	min-height: 25px;	
+	color:#817C7C; 
+	font-weight: bold;
+	font-size: 12px; 
+}
+#ingresa{
+margin-top: -110px;
+}
+option{
+	font-weight: bold;
+}
+
+.botong{
+position: relative;
+	left: 74px;
+	background: #ccc;
+	background: -webkit-linear-gradient(top,#fc6,#f63);
+	background: linear-gradient(top,#fc6,#f63);
+	color: #000;
+	width: 100px;
+
+}
+.botonv{
+position: relative;
+	background: #ccc;
+	background: -webkit-linear-gradient(top,#fc6,#f63);
+	background: linear-gradient(top,#fc6,#f63);
+	color: #000;
+	width: 100px;
+/*-------------------*/
+
+	    float: right;
+    position: relative;
+    margin-top: -25px;
+    right: 74px;
+
+}
